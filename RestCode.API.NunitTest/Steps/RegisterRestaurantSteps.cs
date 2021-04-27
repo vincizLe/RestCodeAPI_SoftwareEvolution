@@ -45,11 +45,7 @@ namespace RestCode.API.NunitTest.Features
         
         [Then(@"I register my data successfully")]
         public void ThenIRegisterMyDataSuccessfully()
-        {
-            //var deserialize = new JsonDeserializer();
-            //var output = deserialize.Deserialize<RestaurantResource>(response);
-            //Console.WriteLine(output.RestaurantName);
-            //Assert.That("Ok", Is.EqualTo(response.StatusCode.ToString()));
+        {            
             Assert.That("Daniel", Is.EqualTo(restaurant.Name));
         }
     }
