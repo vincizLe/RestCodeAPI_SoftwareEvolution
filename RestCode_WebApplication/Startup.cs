@@ -107,7 +107,7 @@ namespace RestCode_WebApplication
             {
                 endpoints.MapControllers();
             });
-            app.UserCustomSwagger();
+            app.UseCustomeSwagger();
         }
     }
 }
